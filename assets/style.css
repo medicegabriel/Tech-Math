@@ -1,0 +1,24 @@
+section h4 {margin-left: 10px;}
+
+.bg-purple {
+    background-color: lightgray;
+}
+
+.card {
+    height: 100%;
+}
+
+@media (max-width: 378px) {
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: auto;
+    }
+
+    .navbar-brand, .navbar-toggler {
+        display: inline-block;
+    }
+}
